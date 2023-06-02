@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %} <title>Tunisian Scout Player   {% endblock %}
+{% block content  %}    
+<div class="homepage">
+    <div class="left">
+        <img src="{{ url_for('static' , filename = 'svg/slide1.svg') }}"  id="svg1" class="s visible"  alt="plugin">
+        <img src="{{ url_for('static' , filename = 'svg/slide2.svg') }}"    id="svg2" class="s hidden" alt="plugin">
+        <img src="{{ url_for('static' , filename = 'svg/slide3.svg') }}"    id="svg3" class="s hidden" alt="plugin">
+        <img src="{{ url_for('static' , filename = 'svg/slide4.svg') }}"    id="svg4" class="s hidden" alt="plugin">
+
+    </div>
+    <div class="right">
+    <form action="{{ playlist() }}">
+        <div class="greating">Welcome to <span>Souccor,</span> <br> Listen To Tunisian Scout Chants For Free</div>
+        <input type="submit"  value="Let's Do It" >
+    </form>
+    </div>
+</div> 
+<script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+
+{% endblock %} 

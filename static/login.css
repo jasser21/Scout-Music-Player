@@ -1,0 +1,50 @@
+* {
+    color: #5DE2A0;
+}
+.login {
+    display: block;
+    margin: auto auto;
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 12px;
+    background:#605e79a3 ;
+}
+
+.login h1 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.login form input{
+    border-radius: 15px;
+    background-color: #f2f2f2ba;
+}
+.login form {
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+    border-radius:15px ;
+}
+.form-check-input[type="checkbox"]{
+    width: 0.2px;
+    height: 0.2px;
+    margin-right:19px ;
+}
+.text-end  {
+    margin:15px auto 0px auto ;
+
+}
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+a{
+    color: rgb(203, 203, 243);
+    text-decoration: none;
+}
+

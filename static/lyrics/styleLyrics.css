@@ -1,0 +1,17 @@
+.poetry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    
+    max-width: 80%;
+}
+
+.poetry p {
+    color: #fefefe;
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.5;
+}
